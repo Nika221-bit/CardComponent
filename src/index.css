@@ -1,11 +1,21 @@
-.Class{
-   display:flex
+.Card{
+   border: 1px solid black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+   border-radius: 15px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 
 
-   image{
-    width: 200px;
-   }
     
    
+}
+.react{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0.9, 0.9, 0.6), 0 10px 20px 0 rgba(0, 0.9, 0.9, 0.19);
 }
